@@ -59,6 +59,7 @@ requests:
       - '{{BaseURL}}/swagger/openapi.yml'
       - '{{BaseURL}}/swagger/swagger.json'
 
+    stop-at-first-match: true
     redirects: true
     max-redirects: 3
     matchers-condition: and
